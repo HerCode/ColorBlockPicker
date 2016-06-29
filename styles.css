@@ -1,7 +1,70 @@
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: 0,0,0;
-  padding: 10px;
+//CSS
+body{
+  text-align: center;
+}
 
+div {
+  background: Gray;
+  border: 1em solid DarkGray;
+  color: gainsboro;
+  cursor: pointer;
+  display: inline-block;
+  height: 10em;
+  line-height: 10;
+  text-align: center;
+  transition: all 1000ms;
+  width: 10em;
+}
+
+#div1.selected{
+  background-color: DeepPink;
+  border-color: HotPink;
+  color: Pink;
+}
+
+#div2.selected{
+  background-color: DarkOrchid;
+  border-color: MediumOrchid;
+  color: Violet;
+}
+
+#div3.selected{
+  background-color: MidnightBlue;
+  border-color: RoyalBlue;
+  color: LightSkyBlue;
+}
+
+#div4.selected{
+  background-color: DarkRed;
+  border-color: FireBrick;
+  color: DarkSalmon;
+}
+
+#div1.selected{
+  background-color: DeepPink;
+  border-color: HotPink;
+  color: Pink;
+}
+//*#game_object {
+    background-color: #ffffff;
+    height: 700px;
+    margin: 20px auto;
+    position: relative;
+    width: 700px;
+}
+#board div {
+    background: none
+    cursor: pointer;
+    height: 175px;
+    line-height: 175px;
+    position: absolute;
+    text-align: center;
+    width: 175px;
+
+    /* css3 shadow */
+    -moz-box-shadow: inset 0 0 20px #555555;
+    -webkit-box-shadow: inset 0 0 20px #555555;
+    -ms-box-shadow: inset 0 0 20px #555555;
+    -o-box-shadow: inset 0 0 20px #555555;
+    box-shadow: inset 0 0 20px #555555;
 }
