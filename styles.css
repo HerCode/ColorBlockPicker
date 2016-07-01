@@ -1,70 +1,51 @@
 //CSS
-body{
-  text-align: center;
+body {
+    font-family: arial;
+    color: 112, 112, 112;
+    background-color: 192, 192, 192;
 }
-
-div {
-  background: Gray;
-  border: 1em solid DarkGray;
-  color: gainsboro;
-  cursor: pointer;
-  display: inline-block;
-  height: 10em;
-  line-height: 10;
-  text-align: center;
-  transition: all 1000ms;
-  width: 10em;
-}
-
-#div1.selected{
-  background-color: DeepPink;
-  border-color: HotPink;
-  color: Pink;
-}
-
-#div2.selected{
-  background-color: DarkOrchid;
-  border-color: MediumOrchid;
-  color: Violet;
-}
-
-#div3.selected{
-  background-color: MidnightBlue;
-  border-color: RoyalBlue;
-  color: LightSkyBlue;
-}
-
-#div4.selected{
-  background-color: DarkRed;
-  border-color: FireBrick;
-  color: DarkSalmon;
-}
-
-#div1.selected{
-  background-color: DeepPink;
-  border-color: HotPink;
-  color: Pink;
-}
-//*#game_object {
-    background-color: #ffffff;
-    height: 700px;
-    margin: 20px auto;
-    position: relative;
-    width: 700px;
-}
-#board div {
-    background: none
-    cursor: pointer;
-    height: 175px;
-    line-height: 175px;
-    position: absolute;
+#content {
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
-    width: 175px;
-
-    /* css3 shadow */
-    -moz-box-shadow: inset 0 0 20px #555555;
-    -webkit-box-shadow: inset 0 0 20px #555555;
-    -ms-box-shadow: inset 0 0 20px #555555;
-    -o-box-shadow: inset 0 0 20px #555555;
-    box-shadow: inset 0 0 20px #555555;
+}
+#game {
+    width: 300px;
+    background-color: 240, 240, 240;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border: 5px solid 192, 192, 192;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.box {
+    height: 80px;
+}
+#one {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(105, 255, 242);
+    overflow: hidden;
+}
+#two {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(193, 255, 105);
+}
+#three {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-color: rgb(167, 105, 255);
+}
+#four {
+    width: 100px;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 105, 118);
 }
